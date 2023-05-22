@@ -1,0 +1,102 @@
+body {
+	background-color: #ff4d4d;
+	font-family: Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+.question-form {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	margin-top: 30px;
+}
+
+.question-form label {
+	font-size: 24px;
+	margin-bottom: 10px;
+	display: block;
+	color: #333;
+}
+
+.question-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.question-form button[type="submit"]:hover {
+	background-color: #4d4d4d;
+}
+
+/* Добавляемнесколько дополнительных CSS-стилей, чтобы улучшить внешний вид страницы: */
+
+/* Добавляем отступы к контейнеру с формой */
+.container {
+	padding: 20px;
+}
+
+/* Скругляем углы и добавляем тень для контейнера с формой */
+.question-form {
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Добавляем стили для текстового поля */
+.question-form input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+/* Добавляем стили для кнопки "Отправить" */
+.question-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.question-form button[type="submit"]:hover {
+	background-color: #4d4d4d];
+}
+
+/* Добавляем стили для ссылок */
+a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+	transition: border-bottom 0.3s ease-in-out;
+}
+
+a:hover {
+	border-bottom: 2px solid #ff1a1a;
+}
